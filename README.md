@@ -49,7 +49,7 @@ This header file can be included in a C project to manage an employee database. 
 - 'delete_by_id(struct DataBase *db)': This function deletes one employee record with the matching ID from user input from the list.
 - 'display_all_records(struct DataBase *db)': This function displays the records of all employees that are within the database.
 - 'cmpfunc_id(const void* a, const void* b)': This function is a compare function which is used for the qsort of sorting the employees by ID.
-- '[cmpfunc_date(const void* a, const void* b)]': This function is a compare function which is used for the qsort of sorting the employees by hire date.
+- 'cmpfunc_date(const void* a, const void* b)': This function is a compare function which is used for the qsort of sorting the employees by hire date.
 
 To use these functions, include this header file in your project and call the functions with appropriate parameters.
 
@@ -68,4 +68,8 @@ This project implements a simple employee database system. The database system c
 2. Compile the program with a C compiler.
 3. Run the compiled program in a terminal or console.
 4. Follow the instructions provided by the program.
+
+
+## Credits 
+This project was created by Mohammad Garada
 
