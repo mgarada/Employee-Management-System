@@ -43,13 +43,13 @@ This header file can be included in a C project to manage an employee database. 
 - 'display_menu(dataBase_ptr)': This function displays the menu for the user to interact with and change the employee database.
 - 'sort_by_id(struct DataBase *db)': This function sorts employee records by ID numbers from lowest to highest.
 - 'sort_by_date(struct DataBase *db)': This function sorts employee records by hire date from lowest to highest.
-- search_by_id(struct DataBase *db): This function displays the employee with the given ID from the user input.
-- search_by_last(struct DataBase *db): This function searches the database by last name and displays employee(s) partially or completely matching with the given string.
-- save(struct DataBase *db): This function saves the database to a text file.
-- delete_by_id(struct DataBase *db): This function deletes one employee record with the matching ID from user input from the list.
-- display_all_records(struct DataBase *db): This function displays the records of all employees that are within the database.
-- cmpfunc_id(const void* a, const void* b): This function is a compare function which is used for the qsort of sorting the employees by ID.
-- cmpfunc_date(const void* a, const void* b): This function is a compare function which is used for the qsort of sorting the employees by hire date.
+- 'search_by_id(struct DataBase *db)': This function displays the employee with the given ID from the user input.
+- 'search_by_last(struct DataBase *db)': This function searches the database by last name and displays employee(s) partially or completely matching with the given string.
+- 'save(struct DataBase *db)': This function saves the database to a text file.
+- 'delete_by_id(struct DataBase *db)': This function deletes one employee record with the matching ID from user input from the list.
+- 'display_all_records(struct DataBase *db)': This function displays the records of all employees that are within the database.
+- 'cmpfunc_id(const void* a, const void* b)': This function is a compare function which is used for the qsort of sorting the employees by ID.
+- '[cmpfunc_date(const void* a, const void* b)]': This function is a compare function which is used for the qsort of sorting the employees by hire date.
 
 To use these functions, include this header file in your project and call the functions with appropriate parameters.
 
